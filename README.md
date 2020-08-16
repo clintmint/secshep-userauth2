@@ -1,8 +1,10 @@
-# User Authentication Challenge 2 resetPasswordToken Generator
+# User Authentication Challenge 2
 
 Token generator for the User Authentication Challenge 2 in OWASP's Security Shepherd platform.
 
 ## Instructions
+
+Method 1 is easy and method 2 is less easy.
 
 ### Method 1
 
@@ -45,6 +47,8 @@ javac Main.java
 java Main
 ```
 
+Expected output
+![output](output.png)
 
 
 
