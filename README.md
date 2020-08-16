@@ -24,8 +24,11 @@ cd secshep-userauth2
 
 #### Linux Instructions
 
+Download OpenJDK binaries, extract and set PATH. This method should work on all Linux systems. It doesn't require sudo nor a package manager and environment modifications will go away after you close the terminal. Download size is ~190M.
+
 ```
 curl -o openjdk-14.0.2_linux-x64_bin.tar.gz https://download.java.net/java/GA/jdk14.0.2/205943a0976c4ed48cb16f1043c5c647/12/GPL/openjdk-14.0.2_linux-x64_bin.tar.gz
+
 tar xf openjdk-14.0.2_linux-x64_bin.tar.gz
 
 export PATH=$HOME/secshep-userauth2/jdk-14.0.2/bin/:$PATH
