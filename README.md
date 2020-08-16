@@ -48,6 +48,7 @@ java Main
 ```
 
 Expected output
+
 ![output](output.png)
 
 
