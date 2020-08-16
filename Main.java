@@ -3,10 +3,10 @@ import java.util.Date;
 
 class Main {
   public static void main(String[] args) {
-    // Create a new date object
+    // Create a new date object instance
     Date newDate = new Date();
     
-    // Convert to String
+    // Convert date to string
     String dateToString = String.valueOf(newDate);
     
     // base64 encode string
