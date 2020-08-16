@@ -45,9 +45,13 @@ javac Main.java
 java Main
 ```
 
-Expected output
+![resetPasswordToken](output.png)
 
-![output](output.png)
+Use the token within 10 minutes.
 
+## How to use the token
 
+You'll need to inspect the source code of the challenge (look in the iframe). Send an existing POST request to Burp Repeater. Set URL and POST parameters.
+
+![Burp Request/Response](request-response.png)
 
