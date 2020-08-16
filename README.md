@@ -22,9 +22,7 @@ git clone https://github.com/clintmint/secshep-userauth2.git
 cd secshep-userauth2
 ```
 
-[Get JDK](https://jdk.java.net/14/) and set it up
-
-Linux Instructions
+#### Linux Instructions
 
 ```
 curl -o openjdk-14.0.2_linux-x64_bin.tar.gz https://download.java.net/java/GA/jdk14.0.2/205943a0976c4ed48cb16f1043c5c647/12/GPL/openjdk-14.0.2_linux-x64_bin.tar.gz
